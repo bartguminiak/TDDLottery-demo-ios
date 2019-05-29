@@ -13,8 +13,20 @@ class CircleViewModel: CircleViewModelType {
 
     // MARK: - CircleViewModelType
 
-    let title = ""
-    let color = UIColor.white
+    var title: String {
+        return "\(number)"
+    }
+
+    var color: UIColor {
+        switch number {
+        case 0:
+            return .green
+        case let number where number % 2 == 0:
+            return .red
+        default:
+            return .black
+        }
+    }
 
     // MARK: - Privates
 
