@@ -19,6 +19,7 @@
 		0683A853229EB98400F132B4 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A852229EB98400F132B4 /* Container.swift */; };
 		0683A855229EBA0800F132B4 /* AppConfigurator_Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A854229EBA0800F132B4 /* AppConfigurator_Container.swift */; };
 		0683A858229EBA5700F132B4 /* ViewController_Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A857229EBA5700F132B4 /* ViewController_Container.swift */; };
+		0683A85B229EC84700F132B4 /* NumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A85A229EC84700F132B4 /* NumberGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0683A852229EB98400F132B4 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		0683A854229EBA0800F132B4 /* AppConfigurator_Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurator_Container.swift; sourceTree = "<group>"; };
 		0683A857229EBA5700F132B4 /* ViewController_Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Container.swift; sourceTree = "<group>"; };
+		0683A85A229EC84700F132B4 /* NumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			children = (
 				0683A826229EAC7000F132B4 /* ViewController.swift */,
 				0683A857229EBA5700F132B4 /* ViewController_Container.swift */,
+				0683A85A229EC84700F132B4 /* NumberGenerator.swift */,
 			);
 			path = Lottery;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				0683A853229EB98400F132B4 /* Container.swift in Sources */,
 				0683A825229EAC7000F132B4 /* AppDelegate.swift in Sources */,
 				0683A847229EAD4800F132B4 /* AppConfigurator.swift in Sources */,
+				0683A85B229EC84700F132B4 /* NumberGenerator.swift in Sources */,
 				0683A855229EBA0800F132B4 /* AppConfigurator_Container.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
