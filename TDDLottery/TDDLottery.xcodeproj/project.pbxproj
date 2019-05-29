@@ -12,6 +12,7 @@
 		0683A82C229EAC7100F132B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0683A82B229EAC7100F132B4 /* Assets.xcassets */; };
 		0683A82F229EAC7100F132B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0683A82D229EAC7100F132B4 /* LaunchScreen.storyboard */; };
 		0683A847229EAD4800F132B4 /* AppConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A846229EAD4800F132B4 /* AppConfigurator.swift */; };
+		0683A849229EAE1000F132B4 /* AppConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A848229EAE1000F132B4 /* AppConfiguratorTests.swift */; };
 		0683A84C229EAEBC00F132B4 /* WindowSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A84B229EAEBC00F132B4 /* WindowSpy.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		0683A835229EAC7100F132B4 /* TDDLotteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDLotteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0683A83B229EAC7100F132B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0683A846229EAD4800F132B4 /* AppConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurator.swift; sourceTree = "<group>"; };
+		0683A848229EAE1000F132B4 /* AppConfiguratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguratorTests.swift; sourceTree = "<group>"; };
 		0683A84B229EAEBC00F132B4 /* WindowSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSpy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,15 @@
 			children = (
 				0683A824229EAC7000F132B4 /* AppDelegate.swift */,
 				0683A846229EAD4800F132B4 /* AppConfigurator.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0683A845229EAD2D00F132B4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0683A84A229EAEAF00F132B4 /* Doubles */,
+				0683A848229EAE1000F132B4 /* AppConfiguratorTests.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -224,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0683A84C229EAEBC00F132B4 /* WindowSpy.swift in Sources */,
+				0683A849229EAE1000F132B4 /* AppConfiguratorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
