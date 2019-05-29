@@ -22,6 +22,7 @@
 		0683A85B229EC84700F132B4 /* NumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A85A229EC84700F132B4 /* NumberGenerator.swift */; };
 		0683A85F229ECB0300F132B4 /* NumberGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A85E229ECB0300F132B4 /* NumberGeneratorTests.swift */; };
 		0683A863229ECF2200F132B4 /* CircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A862229ECF2200F132B4 /* CircleViewModel.swift */; };
+		0683A865229ECFF300F132B4 /* CircleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A864229ECFF300F132B4 /* CircleViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		0683A85A229EC84700F132B4 /* NumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGenerator.swift; sourceTree = "<group>"; };
 		0683A85E229ECB0300F132B4 /* NumberGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGeneratorTests.swift; sourceTree = "<group>"; };
 		0683A862229ECF2200F132B4 /* CircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewModel.swift; sourceTree = "<group>"; };
+		0683A864229ECFF300F132B4 /* CircleViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				0683A85E229ECB0300F132B4 /* NumberGeneratorTests.swift */,
+				0683A864229ECFF300F132B4 /* CircleViewModelTests.swift */,
 			);
 			path = Lottery;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				0683A84E229EB84100F132B4 /* AppDelegateTests.swift in Sources */,
 				0683A850229EB8A300F132B4 /* AppConfiguratorStub.swift in Sources */,
 				0683A85F229ECB0300F132B4 /* NumberGeneratorTests.swift in Sources */,
+				0683A865229ECFF300F132B4 /* CircleViewModelTests.swift in Sources */,
 				0683A849229EAE1000F132B4 /* AppConfiguratorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
