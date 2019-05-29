@@ -15,12 +15,12 @@ class AppConfiguratorTests: XCTestCase {
                               rootViewControllerFactory: { [unowned self] in self.viewConrollerSub })
     }
 
-    func testRootViewController() {
+    func testRootViewControllerConfigured() {
         let window = sut.configuredWindow()
         XCTAssertEqual(window.rootViewController, viewConrollerSub)
     }
 
-    func testMakeVisible() {
+    func testMakeKeyAndVisible() {
         _ = sut.configuredWindow()
         XCTAssert(windowSpy.didCallMakeKeyAndVisible)
     }
