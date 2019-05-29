@@ -16,6 +16,7 @@
 		0683A84C229EAEBC00F132B4 /* WindowSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A84B229EAEBC00F132B4 /* WindowSpy.swift */; };
 		0683A850229EB8A300F132B4 /* AppConfiguratorStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A84F229EB8A300F132B4 /* AppConfiguratorStub.swift */; };
 		0683A853229EB98400F132B4 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A852229EB98400F132B4 /* Container.swift */; };
+		0683A855229EBA0800F132B4 /* AppConfigurator_Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A854229EBA0800F132B4 /* AppConfigurator_Container.swift */; };
 		0683A858229EBA5700F132B4 /* ViewController_Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A857229EBA5700F132B4 /* ViewController_Container.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		0683A84B229EAEBC00F132B4 /* WindowSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSpy.swift; sourceTree = "<group>"; };
 		0683A84F229EB8A300F132B4 /* AppConfiguratorStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguratorStub.swift; sourceTree = "<group>"; };
 		0683A852229EB98400F132B4 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		0683A854229EBA0800F132B4 /* AppConfigurator_Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurator_Container.swift; sourceTree = "<group>"; };
 		0683A857229EBA5700F132B4 /* ViewController_Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Container.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 			children = (
 				0683A824229EAC7000F132B4 /* AppDelegate.swift */,
 				0683A846229EAD4800F132B4 /* AppConfigurator.swift */,
+				0683A854229EBA0800F132B4 /* AppConfigurator_Container.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				0683A853229EB98400F132B4 /* Container.swift in Sources */,
 				0683A825229EAC7000F132B4 /* AppDelegate.swift in Sources */,
 				0683A847229EAD4800F132B4 /* AppConfigurator.swift in Sources */,
+				0683A855229EBA0800F132B4 /* AppConfigurator_Container.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
