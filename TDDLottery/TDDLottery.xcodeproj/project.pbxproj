@@ -71,9 +71,9 @@
 		0683A818229EAC7000F132B4 = {
 			isa = PBXGroup;
 			children = (
+				0683A822229EAC7000F132B4 /* Products */,
 				0683A823229EAC7000F132B4 /* TDDLottery */,
 				0683A838229EAC7100F132B4 /* TDDLotteryTests */,
-				0683A822229EAC7000F132B4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,13 +89,12 @@
 		0683A823229EAC7000F132B4 /* TDDLottery */ = {
 			isa = PBXGroup;
 			children = (
-				0683A856229EBA3C00F132B4 /* Scenes */,
-				0683A851229EB97400F132B4 /* Container */,
 				0683A844229EAD2200F132B4 /* Application */,
-				0683A826229EAC7000F132B4 /* ViewController.swift */,
+				0683A851229EB97400F132B4 /* Container */,
+				0683A856229EBA3C00F132B4 /* Scenes */,
 				0683A82B229EAC7100F132B4 /* Assets.xcassets */,
-				0683A82D229EAC7100F132B4 /* LaunchScreen.storyboard */,
 				0683A830229EAC7100F132B4 /* Info.plist */,
+				0683A82D229EAC7100F132B4 /* LaunchScreen.storyboard */,
 			);
 			path = TDDLottery;
 			sourceTree = "<group>";
@@ -112,9 +111,9 @@
 		0683A844229EAD2200F132B4 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				0683A824229EAC7000F132B4 /* AppDelegate.swift */,
 				0683A846229EAD4800F132B4 /* AppConfigurator.swift */,
 				0683A854229EBA0800F132B4 /* AppConfigurator_Container.swift */,
+				0683A824229EAC7000F132B4 /* AppDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -132,8 +131,8 @@
 		0683A84A229EAEAF00F132B4 /* Doubles */ = {
 			isa = PBXGroup;
 			children = (
-				0683A84B229EAEBC00F132B4 /* WindowSpy.swift */,
 				0683A84F229EB8A300F132B4 /* AppConfiguratorStub.swift */,
+				0683A84B229EAEBC00F132B4 /* WindowSpy.swift */,
 			);
 			path = Doubles;
 			sourceTree = "<group>";
@@ -149,9 +148,18 @@
 		0683A856229EBA3C00F132B4 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				0683A857229EBA5700F132B4 /* ViewController_Container.swift */,
+				0683A859229EC7DB00F132B4 /* Lottery */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0683A859229EC7DB00F132B4 /* Lottery */ = {
+			isa = PBXGroup;
+			children = (
+				0683A826229EAC7000F132B4 /* ViewController.swift */,
+				0683A857229EBA5700F132B4 /* ViewController_Container.swift */,
+			);
+			path = Lottery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +300,7 @@
 				0683A82E229EAC7100F132B4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
