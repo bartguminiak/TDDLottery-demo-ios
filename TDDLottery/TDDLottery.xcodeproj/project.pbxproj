@@ -20,6 +20,7 @@
 		0683A855229EBA0800F132B4 /* AppConfigurator_Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A854229EBA0800F132B4 /* AppConfigurator_Container.swift */; };
 		0683A858229EBA5700F132B4 /* ViewController_Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A857229EBA5700F132B4 /* ViewController_Container.swift */; };
 		0683A85B229EC84700F132B4 /* NumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A85A229EC84700F132B4 /* NumberGenerator.swift */; };
+		0683A85F229ECB0300F132B4 /* NumberGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A85E229ECB0300F132B4 /* NumberGeneratorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		0683A854229EBA0800F132B4 /* AppConfigurator_Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurator_Container.swift; sourceTree = "<group>"; };
 		0683A857229EBA5700F132B4 /* ViewController_Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Container.swift; sourceTree = "<group>"; };
 		0683A85A229EC84700F132B4 /* NumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGenerator.swift; sourceTree = "<group>"; };
+		0683A85E229ECB0300F132B4 /* NumberGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGeneratorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		0683A838229EAC7100F132B4 /* TDDLotteryTests */ = {
 			isa = PBXGroup;
 			children = (
+				0683A85C229ECAE300F132B4 /* Scenes */,
 				0683A845229EAD2D00F132B4 /* Application */,
 				0683A83B229EAC7100F132B4 /* Info.plist */,
 			);
@@ -161,6 +164,22 @@
 				0683A826229EAC7000F132B4 /* ViewController.swift */,
 				0683A857229EBA5700F132B4 /* ViewController_Container.swift */,
 				0683A85A229EC84700F132B4 /* NumberGenerator.swift */,
+			);
+			path = Lottery;
+			sourceTree = "<group>";
+		};
+		0683A85C229ECAE300F132B4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0683A85D229ECAE900F132B4 /* Lottery */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0683A85D229ECAE900F132B4 /* Lottery */ = {
+			isa = PBXGroup;
+			children = (
+				0683A85E229ECB0300F132B4 /* NumberGeneratorTests.swift */,
 			);
 			path = Lottery;
 			sourceTree = "<group>";
@@ -283,6 +302,7 @@
 				0683A84C229EAEBC00F132B4 /* WindowSpy.swift in Sources */,
 				0683A84E229EB84100F132B4 /* AppDelegateTests.swift in Sources */,
 				0683A850229EB8A300F132B4 /* AppConfiguratorStub.swift in Sources */,
+				0683A85F229ECB0300F132B4 /* NumberGeneratorTests.swift in Sources */,
 				0683A849229EAE1000F132B4 /* AppConfiguratorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
