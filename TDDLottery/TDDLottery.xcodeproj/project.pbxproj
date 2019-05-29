@@ -24,6 +24,7 @@
 		0683A861229ECEDC00F132B4 /* LotteryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A860229ECEDC00F132B4 /* LotteryViewModel.swift */; };
 		0683A863229ECF2200F132B4 /* CircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A862229ECF2200F132B4 /* CircleViewModel.swift */; };
 		0683A865229ECFF300F132B4 /* CircleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A864229ECFF300F132B4 /* CircleViewModelTests.swift */; };
+		0683A867229ED3A500F132B4 /* LotteryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A866229ED3A500F132B4 /* LotteryViewModelTests.swift */; };
 		0683A86A229ED48800F132B4 /* NumberGeneratorStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A869229ED48800F132B4 /* NumberGeneratorStub.swift */; };
 		0683A86C229EE2F400F132B4 /* CircleViewModelStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A86B229EE2F400F132B4 /* CircleViewModelStub.swift */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		0683A860229ECEDC00F132B4 /* LotteryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryViewModel.swift; sourceTree = "<group>"; };
 		0683A862229ECF2200F132B4 /* CircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewModel.swift; sourceTree = "<group>"; };
 		0683A864229ECFF300F132B4 /* CircleViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewModelTests.swift; sourceTree = "<group>"; };
+		0683A866229ED3A500F132B4 /* LotteryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryViewModelTests.swift; sourceTree = "<group>"; };
 		0683A869229ED48800F132B4 /* NumberGeneratorStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGeneratorStub.swift; sourceTree = "<group>"; };
 		0683A86B229EE2F400F132B4 /* CircleViewModelStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewModelStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -194,6 +196,7 @@
 				0683A868229ED46E00F132B4 /* Doubles */,
 				0683A85E229ECB0300F132B4 /* NumberGeneratorTests.swift */,
 				0683A864229ECFF300F132B4 /* CircleViewModelTests.swift */,
+				0683A866229ED3A500F132B4 /* LotteryViewModelTests.swift */,
 			);
 			path = Lottery;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				0683A84E229EB84100F132B4 /* AppDelegateTests.swift in Sources */,
 				0683A86C229EE2F400F132B4 /* CircleViewModelStub.swift in Sources */,
 				0683A86A229ED48800F132B4 /* NumberGeneratorStub.swift in Sources */,
+				0683A867229ED3A500F132B4 /* LotteryViewModelTests.swift in Sources */,
 				0683A850229EB8A300F132B4 /* AppConfiguratorStub.swift in Sources */,
 				0683A85F229ECB0300F132B4 /* NumberGeneratorTests.swift in Sources */,
 				0683A865229ECFF300F132B4 /* CircleViewModelTests.swift in Sources */,
