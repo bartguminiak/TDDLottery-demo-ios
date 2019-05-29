@@ -96,6 +96,7 @@
 		0683A844229EAD2200F132B4 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				0683A824229EAC7000F132B4 /* AppDelegate.swift */,
 				0683A846229EAD4800F132B4 /* AppConfigurator.swift */,
 			);
 			path = Application;
