@@ -14,6 +14,7 @@
 		0683A847229EAD4800F132B4 /* AppConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A846229EAD4800F132B4 /* AppConfigurator.swift */; };
 		0683A849229EAE1000F132B4 /* AppConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A848229EAE1000F132B4 /* AppConfiguratorTests.swift */; };
 		0683A84C229EAEBC00F132B4 /* WindowSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A84B229EAEBC00F132B4 /* WindowSpy.swift */; };
+		0683A84E229EB84100F132B4 /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A84D229EB84100F132B4 /* AppDelegateTests.swift */; };
 		0683A850229EB8A300F132B4 /* AppConfiguratorStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A84F229EB8A300F132B4 /* AppConfiguratorStub.swift */; };
 		0683A853229EB98400F132B4 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A852229EB98400F132B4 /* Container.swift */; };
 		0683A855229EBA0800F132B4 /* AppConfigurator_Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A854229EBA0800F132B4 /* AppConfigurator_Container.swift */; };
@@ -42,6 +43,7 @@
 		0683A846229EAD4800F132B4 /* AppConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurator.swift; sourceTree = "<group>"; };
 		0683A848229EAE1000F132B4 /* AppConfiguratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguratorTests.swift; sourceTree = "<group>"; };
 		0683A84B229EAEBC00F132B4 /* WindowSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSpy.swift; sourceTree = "<group>"; };
+		0683A84D229EB84100F132B4 /* AppDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
 		0683A84F229EB8A300F132B4 /* AppConfiguratorStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguratorStub.swift; sourceTree = "<group>"; };
 		0683A852229EB98400F132B4 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		0683A854229EBA0800F132B4 /* AppConfigurator_Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurator_Container.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				0683A84A229EAEAF00F132B4 /* Doubles */,
 				0683A848229EAE1000F132B4 /* AppConfiguratorTests.swift */,
+				0683A84D229EB84100F132B4 /* AppDelegateTests.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0683A84C229EAEBC00F132B4 /* WindowSpy.swift in Sources */,
+				0683A84E229EB84100F132B4 /* AppDelegateTests.swift in Sources */,
 				0683A850229EB8A300F132B4 /* AppConfiguratorStub.swift in Sources */,
 				0683A849229EAE1000F132B4 /* AppConfiguratorTests.swift in Sources */,
 			);
