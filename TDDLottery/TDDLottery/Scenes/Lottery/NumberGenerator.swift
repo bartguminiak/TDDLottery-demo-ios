@@ -13,11 +13,21 @@ class NumberGenerator: NumberGeneratorType {
     // MARK: - NumberGeneratorType
 
     func generate() -> [Int] {
-        return []
+        return generateNumbers(currentNumbers: [])
     }
 
     // MARK: - Privates
 
     private let intGenerator: () -> Int
+
+    private func generateNumbers(currentNumbers: [Int]) -> [Int] {
+        guard currentNumbers.count < 5 else { return currentNumbers }
+        var newCurrentNumbers = currentNumbers
+        let newNumber = intGenerator()
+        if !newCurrentNumbers.contains(newNumber) {
+            newCurrentNumbers.append(newNumber)
+        }
+        return generateNumbers(currentNumbers: newCurrentNumbers)
+    }
 
 }
