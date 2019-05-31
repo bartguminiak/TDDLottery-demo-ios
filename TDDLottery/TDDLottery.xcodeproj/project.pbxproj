@@ -27,6 +27,7 @@
 		0683A867229ED3A500F132B4 /* LotteryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A866229ED3A500F132B4 /* LotteryViewModelTests.swift */; };
 		0683A86A229ED48800F132B4 /* NumberGeneratorStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A869229ED48800F132B4 /* NumberGeneratorStub.swift */; };
 		0683A86C229EE2F400F132B4 /* CircleViewModelStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A86B229EE2F400F132B4 /* CircleViewModelStub.swift */; };
+		06D4173722A1446E003956C6 /* LotteryViewModelDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D4173622A1446E003956C6 /* LotteryViewModelDouble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		0683A866229ED3A500F132B4 /* LotteryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryViewModelTests.swift; sourceTree = "<group>"; };
 		0683A869229ED48800F132B4 /* NumberGeneratorStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGeneratorStub.swift; sourceTree = "<group>"; };
 		0683A86B229EE2F400F132B4 /* CircleViewModelStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewModelStub.swift; sourceTree = "<group>"; };
+		06D4173622A1446E003956C6 /* LotteryViewModelDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryViewModelDouble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 			children = (
 				0683A869229ED48800F132B4 /* NumberGeneratorStub.swift */,
 				0683A86B229EE2F400F132B4 /* CircleViewModelStub.swift */,
+				06D4173622A1446E003956C6 /* LotteryViewModelDouble.swift */,
 			);
 			path = Doubles;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				0683A86A229ED48800F132B4 /* NumberGeneratorStub.swift in Sources */,
 				0683A867229ED3A500F132B4 /* LotteryViewModelTests.swift in Sources */,
 				0683A850229EB8A300F132B4 /* AppConfiguratorStub.swift in Sources */,
+				06D4173722A1446E003956C6 /* LotteryViewModelDouble.swift in Sources */,
 				0683A85F229ECB0300F132B4 /* NumberGeneratorTests.swift in Sources */,
 				0683A865229ECFF300F132B4 /* CircleViewModelTests.swift in Sources */,
 				0683A849229EAE1000F132B4 /* AppConfiguratorTests.swift in Sources */,
