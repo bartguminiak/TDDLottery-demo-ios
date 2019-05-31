@@ -3,7 +3,7 @@ import UIKit
 
 class CircleViewModelStub: CircleViewModelType {
 
-    init(number: Int) {
+    init(number: Int = 0) {
         self.numberSpy = number
     }
 
