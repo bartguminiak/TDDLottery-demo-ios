@@ -30,6 +30,7 @@
 		06D4173522A14434003956C6 /* LotteryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D4173422A14434003956C6 /* LotteryViewControllerTests.swift */; };
 		06D4173722A1446E003956C6 /* LotteryViewModelDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D4173622A1446E003956C6 /* LotteryViewModelDouble.swift */; };
 		06D4173922A145DF003956C6 /* LotterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D4173822A145DF003956C6 /* LotterView.swift */; };
+		06D4173B22A14FA1003956C6 /* Lottery_ContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D4173A22A14FA1003956C6 /* Lottery_ContainerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		06D4173422A14434003956C6 /* LotteryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryViewControllerTests.swift; sourceTree = "<group>"; };
 		06D4173622A1446E003956C6 /* LotteryViewModelDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryViewModelDouble.swift; sourceTree = "<group>"; };
 		06D4173822A145DF003956C6 /* LotterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotterView.swift; sourceTree = "<group>"; };
+		06D4173A22A14FA1003956C6 /* Lottery_ContainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottery_ContainerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 				0683A864229ECFF300F132B4 /* CircleViewModelTests.swift */,
 				0683A866229ED3A500F132B4 /* LotteryViewModelTests.swift */,
 				06D4173422A14434003956C6 /* LotteryViewControllerTests.swift */,
+				06D4173A22A14FA1003956C6 /* Lottery_ContainerTests.swift */,
 			);
 			path = Lottery;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				0683A84C229EAEBC00F132B4 /* WindowSpy.swift in Sources */,
 				0683A84E229EB84100F132B4 /* AppDelegateTests.swift in Sources */,
 				0683A86C229EE2F400F132B4 /* CircleViewModelStub.swift in Sources */,
+				06D4173B22A14FA1003956C6 /* Lottery_ContainerTests.swift in Sources */,
 				0683A86A229ED48800F132B4 /* NumberGeneratorStub.swift in Sources */,
 				0683A867229ED3A500F132B4 /* LotteryViewModelTests.swift in Sources */,
 				0683A850229EB8A300F132B4 /* AppConfiguratorStub.swift in Sources */,
