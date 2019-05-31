@@ -126,8 +126,8 @@
 		0683A838229EAC7100F132B4 /* TDDLotteryTests */ = {
 			isa = PBXGroup;
 			children = (
-				0683A85C229ECAE300F132B4 /* Scenes */,
 				0683A845229EAD2D00F132B4 /* Application */,
+				0683A85C229ECAE300F132B4 /* Scenes */,
 				0683A83B229EAC7100F132B4 /* Info.plist */,
 			);
 			path = TDDLotteryTests;
@@ -181,12 +181,12 @@
 		0683A859229EC7DB00F132B4 /* Lottery */ = {
 			isa = PBXGroup;
 			children = (
-				0683A826229EAC7000F132B4 /* LotteryViewController.swift */,
-				0683A857229EBA5700F132B4 /* Lottery_Container.swift */,
-				0683A85A229EC84700F132B4 /* NumberGenerator.swift */,
-				0683A860229ECEDC00F132B4 /* LotteryViewModel.swift */,
 				0683A862229ECF2200F132B4 /* CircleViewModel.swift */,
 				06D4173822A145DF003956C6 /* LotterView.swift */,
+				0683A826229EAC7000F132B4 /* LotteryViewController.swift */,
+				0683A860229ECEDC00F132B4 /* LotteryViewModel.swift */,
+				0683A857229EBA5700F132B4 /* Lottery_Container.swift */,
+				0683A85A229EC84700F132B4 /* NumberGenerator.swift */,
 			);
 			path = Lottery;
 			sourceTree = "<group>";
@@ -203,11 +203,11 @@
 			isa = PBXGroup;
 			children = (
 				0683A868229ED46E00F132B4 /* Doubles */,
-				0683A85E229ECB0300F132B4 /* NumberGeneratorTests.swift */,
 				0683A864229ECFF300F132B4 /* CircleViewModelTests.swift */,
-				0683A866229ED3A500F132B4 /* LotteryViewModelTests.swift */,
 				06D4173422A14434003956C6 /* LotteryViewControllerTests.swift */,
+				0683A866229ED3A500F132B4 /* LotteryViewModelTests.swift */,
 				06D4173A22A14FA1003956C6 /* Lottery_ContainerTests.swift */,
+				0683A85E229ECB0300F132B4 /* NumberGeneratorTests.swift */,
 			);
 			path = Lottery;
 			sourceTree = "<group>";
@@ -215,9 +215,9 @@
 		0683A868229ED46E00F132B4 /* Doubles */ = {
 			isa = PBXGroup;
 			children = (
-				0683A869229ED48800F132B4 /* NumberGeneratorStub.swift */,
 				0683A86B229EE2F400F132B4 /* CircleViewModelStub.swift */,
 				06D4173622A1446E003956C6 /* LotteryViewModelDouble.swift */,
+				0683A869229ED48800F132B4 /* NumberGeneratorStub.swift */,
 			);
 			path = Doubles;
 			sourceTree = "<group>";
