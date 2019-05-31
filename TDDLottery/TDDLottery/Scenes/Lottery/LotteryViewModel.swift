@@ -1,4 +1,4 @@
-protocol LotteryViewModelType {
+protocol LotteryViewModelType: class {
     func viewDidLoad()
     var circleViewModels: (([CircleViewModelType]) -> Void)? { get set }
 }
