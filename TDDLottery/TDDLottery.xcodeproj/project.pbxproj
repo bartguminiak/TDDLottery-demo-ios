@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0683A825229EAC7000F132B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A824229EAC7000F132B4 /* AppDelegate.swift */; };
-		0683A827229EAC7000F132B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A826229EAC7000F132B4 /* ViewController.swift */; };
+		0683A827229EAC7000F132B4 /* LotteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A826229EAC7000F132B4 /* LotteryViewController.swift */; };
 		0683A82C229EAC7100F132B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0683A82B229EAC7100F132B4 /* Assets.xcassets */; };
 		0683A82F229EAC7100F132B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0683A82D229EAC7100F132B4 /* LaunchScreen.storyboard */; };
 		0683A847229EAD4800F132B4 /* AppConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0683A846229EAD4800F132B4 /* AppConfigurator.swift */; };
@@ -42,7 +42,7 @@
 /* Begin PBXFileReference section */
 		0683A821229EAC7000F132B4 /* TDDLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0683A824229EAC7000F132B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0683A826229EAC7000F132B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0683A826229EAC7000F132B4 /* LotteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryViewController.swift; sourceTree = "<group>"; };
 		0683A82B229EAC7100F132B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0683A82E229EAC7100F132B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0683A830229EAC7100F132B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -173,7 +173,7 @@
 		0683A859229EC7DB00F132B4 /* Lottery */ = {
 			isa = PBXGroup;
 			children = (
-				0683A826229EAC7000F132B4 /* ViewController.swift */,
+				0683A826229EAC7000F132B4 /* LotteryViewController.swift */,
 				0683A857229EBA5700F132B4 /* ViewController_Container.swift */,
 				0683A85A229EC84700F132B4 /* NumberGenerator.swift */,
 				0683A860229ECEDC00F132B4 /* LotteryViewModel.swift */,
@@ -313,7 +313,7 @@
 			files = (
 				0683A861229ECEDC00F132B4 /* LotteryViewModel.swift in Sources */,
 				0683A858229EBA5700F132B4 /* ViewController_Container.swift in Sources */,
-				0683A827229EAC7000F132B4 /* ViewController.swift in Sources */,
+				0683A827229EAC7000F132B4 /* LotteryViewController.swift in Sources */,
 				0683A853229EB98400F132B4 /* Container.swift in Sources */,
 				0683A825229EAC7000F132B4 /* AppDelegate.swift in Sources */,
 				0683A847229EAD4800F132B4 /* AppConfigurator.swift in Sources */,
