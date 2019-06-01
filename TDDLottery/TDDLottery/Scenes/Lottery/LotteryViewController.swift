@@ -39,4 +39,3 @@ class LotteryViewController: UIViewController {
     }
 
 }
-

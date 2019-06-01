@@ -13,7 +13,7 @@ class AppDelegateTests: XCTestCase {
         sut.appConfigurator = appConfiguratorStub
     }
 
-    func testConfigureWindow() {
+    func test_whenDidFinishLaunchingWithOptions_shouldSetCorrectWindow() {
         appConfiguratorStub.windowStub = UIWindow()
         _ = sut.application(UIApplication.shared, didFinishLaunchingWithOptions: nil)
         XCTAssertEqual(sut.window, appConfiguratorStub.windowStub)

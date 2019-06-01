@@ -10,17 +10,17 @@ class Lottery_ContainerTests: XCTestCase {
         sut = Container()
     }
 
-    func testResolveNumberGeneratorDependency() {
+    func test_shouldResolveNumberGeneratorDependency() {
         let dependency = sut.numberGenerator()
         XCTAssert(dependency is NumberGenerator)
     }
 
-    func testResolveViewModelDependency() {
+    func test_shouldResolveViewModelDependency() {
         let dependency = sut.lotteryViewModel()
         XCTAssert(dependency is LotteryViewModel)
     }
 
-    func testResolveViewControllerDependency() {
+    func test_shouldResolveViewControllerDependency() {
         let dependency = sut.lotteryViewController()
         XCTAssert(dependency is LotteryViewController)
     }

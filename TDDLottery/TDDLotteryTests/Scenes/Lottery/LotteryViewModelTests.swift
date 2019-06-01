@@ -18,11 +18,11 @@ class LotteryViewModelTests: XCTestCase {
         }
     }
 
-    func testViewDidNotLoad() {
+    func test_whenViewDidLoadNotCalled_shouldNotReturnViewModelsYet() {
         XCTAssertEqual(circleViewModelSpies.isEmpty, true)
     }
 
-    func testViewDidLoad() {
+    func test_whenViewDidLoadCalled_shouldReturnCorrectViewModels() {
         numberGeneratorStub.generatedNumbersStub = [99]
         sut.viewDidLoad()
         let spies: [CircleViewModelStub] = circleViewModelSpies as! [CircleViewModelStub]

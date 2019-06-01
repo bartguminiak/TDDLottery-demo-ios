@@ -24,7 +24,7 @@ class NumberGenerator: NumberGeneratorType {
         guard currentNumbers.count < 5 else { return currentNumbers }
         var newCurrentNumbers = currentNumbers
         let newNumber = intGenerator()
-        if !newCurrentNumbers.contains(newNumber) {
+        if newNumber >= 0 && newNumber <= 42 && !newCurrentNumbers.contains(newNumber) {
             newCurrentNumbers.append(newNumber)
         }
         return generateNumbers(currentNumbers: newCurrentNumbers)

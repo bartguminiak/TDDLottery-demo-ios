@@ -12,7 +12,7 @@ class LotteryViewControllerTests: XCTestCase {
         sut = LotteryViewController(viewModel: viewModelDouble)
     }
 
-    func test_whenLoadView_shouldSetupCustomViewToBeLotteryView() {
+    func test_whenLoadView_shouldSetupLotteryViewAsCustomView() {
         XCTAssert(sut.view is LotteryView)
     }
 
@@ -21,7 +21,7 @@ class LotteryViewControllerTests: XCTestCase {
         XCTAssert(viewModelDouble.didCallViewDidLoad)
     }
 
-    func test_whenViewLoaded_circleViewModelsProvided_shouldOutlineCorrectNumberOfSubviews() {
+    func test_whenViewLoaded_whenCircleViewModelsProvided_shouldOutlineCorrectNumberOfSubviews() {
         sut.viewDidLoad()
         viewModelDouble.circleViewModels?([
             CircleViewModelStub(),
@@ -32,7 +32,7 @@ class LotteryViewControllerTests: XCTestCase {
         XCTAssertEqual(customView.stackView.arrangedSubviews.count, 3)
     }
 
-    func test_whenViewLoaded_circleViewModelsProvided_shouldhaveCorrectData() {
+    func test_whenViewLoaded_whenCircleViewModelsProvided_shouldhaveCorrectData() {
         sut.viewDidLoad()
         let viewModel1 = CircleViewModelStub()
         viewModel1.title = "test-1"

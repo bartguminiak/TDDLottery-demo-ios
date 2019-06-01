@@ -12,7 +12,7 @@ extension Container {
     }
 
     func numberGenerator() -> NumberGeneratorType {
-        return NumberGenerator(intGenerator: { Int.random(in: 0...42) })
+        return NumberGenerator(intGenerator: { Int.random(in: -100...100) })
     }
 
 }
