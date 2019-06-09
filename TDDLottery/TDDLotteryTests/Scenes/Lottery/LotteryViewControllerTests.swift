@@ -32,7 +32,14 @@ class LotteryViewControllerTests: XCTestCase {
         XCTAssertEqual(customView.stackView.arrangedSubviews.count, 3)
     }
 
-    func test_whenViewLoaded_whenCircleViewModelsProvided_shouldhaveCorrectData() {
+    func test_whenViewDidLoad_TitleProvided_ShouldSetCorrectTitle() {
+        sut.viewDidLoad()
+        viewModelDouble.todayTitle?("test-title")
+        let customView = sut.view as! LotteryView
+        XCTAssertEqual(customView.titleLabel.text, "test-title")
+    }
+
+    func test_whenViewLoad_whenCircleViewModelsProvided_shouldhaveCorrectData() {
         sut.viewDidLoad()
         let viewModel1 = CircleViewModelStub()
         viewModel1.title = "test-1"

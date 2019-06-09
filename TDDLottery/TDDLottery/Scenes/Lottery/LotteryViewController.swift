@@ -26,6 +26,9 @@ class LotteryViewController: UIViewController {
     }
 
     private func configureSubviews() {
+        viewModel.todayTitle = { [unowned self] title in
+            self.lotteryView.titleLabel.text = title
+        }
         viewModel.circleViewModels = { [unowned self] viewModels in
             self.lotteryView.stackView.subviews.forEach(self.lotteryView.stackView.removeArrangedSubview)
             let labels = viewModels.map(self.createLabel)
