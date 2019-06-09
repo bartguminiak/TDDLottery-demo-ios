@@ -8,6 +8,8 @@ class LotteryViewModelDouble: LotteryViewModelType {
         didCallViewDidLoad = true
     }
 
+    var todayTitle: ((String) -> Void)?
+
     var circleViewModels: (([CircleViewModelType]) -> Void)?
 
     // MARK: - Doubles
