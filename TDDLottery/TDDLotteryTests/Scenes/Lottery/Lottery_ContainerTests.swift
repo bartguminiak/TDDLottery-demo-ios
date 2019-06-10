@@ -25,4 +25,9 @@ class Lottery_ContainerTests: XCTestCase {
         XCTAssert(dependency is LotteryViewController)
     }
 
+    func test_shouldResolveFormattedDateProvider() {
+        let dependency = sut.formattedDateProvider()
+        XCTAssert(dependency is FormattedDateProvider)
+    }
+
 }
