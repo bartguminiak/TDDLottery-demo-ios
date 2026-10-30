@@ -1,6 +1,6 @@
 import Foundation
 
-protocol LotteryViewModelType: class {
+protocol LotteryViewModelType: AnyObject {
     func viewDidLoad()
     var todayTitle: ((String) -> Void)? { get set }
     var circleViewModels: (([CircleViewModelType]) -> Void)? { get set }

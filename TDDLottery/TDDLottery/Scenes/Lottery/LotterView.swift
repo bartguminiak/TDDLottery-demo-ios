@@ -30,7 +30,7 @@ class LotteryView: UIView {
         stackView.distribution = .equalCentering
 
         let contstraints = [
-            titleLabel.topAnchor.constraint(equalTo: topAnchor, constant: 40),
+            titleLabel.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 24),
             titleLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
             stackView.topAnchor.constraint(equalTo: titleLabel.topAnchor, constant: 100),
             stackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
