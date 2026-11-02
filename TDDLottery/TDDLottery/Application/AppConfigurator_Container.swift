@@ -2,8 +2,8 @@ import UIKit
 
 extension Container {
 
-    func appConfigurator() -> AppConfiguratorType {
-        return AppConfigurator(windowFactory: { UIWindow(frame: UIScreen.main.bounds) },
+    func appConfigurator(windowScene: UIWindowScene) -> AppConfiguratorType {
+        return AppConfigurator(windowFactory: { UIWindow(windowScene: windowScene) },
                                rootViewControllerFactory: { [unowned self] in self.lotteryViewController() })
     }
 

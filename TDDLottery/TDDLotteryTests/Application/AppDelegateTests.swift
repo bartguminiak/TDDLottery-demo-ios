@@ -1,22 +1,25 @@
 @testable import TDDLottery
-import XCTest
+import Testing
+import UIKit
 
-class AppDelegateTests: XCTestCase {
+@MainActor
+struct AppDelegateTests {
 
-    var sut: AppDelegate!
-    var appConfiguratorStub: AppConfiguratorStub!
-
-    override func setUp() {
-        super.setUp()
-        appConfiguratorStub = AppConfiguratorStub()
-        sut = AppDelegate()
-        sut.appConfigurator = appConfiguratorStub
+    @Test func applicationLaunchSucceeds() {
+        let sut = AppDelegate()
+        #expect(sut.application(UIApplication.shared, didFinishLaunchingWithOptions: nil))
     }
 
-    func test_whenDidFinishLaunchingWithOptions_shouldSetCorrectWindow() {
-        appConfiguratorStub.windowStub = UIWindow()
-        _ = sut.application(UIApplication.shared, didFinishLaunchingWithOptions: nil)
-        XCTAssertEqual(sut.window, appConfiguratorStub.windowStub)
+    @Test func sceneManifestRegistersSceneDelegate() throws {
+        let manifest = try #require(Bundle(for: AppDelegate.self)
+            .object(forInfoDictionaryKey: "UIApplicationSceneManifest") as? [String: Any])
+        #expect(manifest["UIApplicationSupportsMultipleScenes"] as? Bool == false)
+        let configurations = try #require(manifest["UISceneConfigurations"] as? [String: Any])
+        let applicationConfigurations = try #require(
+            configurations["UIWindowSceneSessionRoleApplication"] as? [[String: Any]])
+        let configuration = try #require(applicationConfigurations.first)
+        let delegateClassName = try #require(configuration["UISceneDelegateClassName"] as? String)
+        #expect(delegateClassName == NSStringFromClass(SceneDelegate.self))
     }
 
 }
